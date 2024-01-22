@@ -1,0 +1,144 @@
+.cosmicCard {
+  border-radius: 8px;
+  background-color: #eee1f0;
+}
+.topBar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftBar {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.purpletext {
+  color: #961a88;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+}
+.winningNumber {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.numberBall {
+  background-color: #595857;
+  border: 50px;
+  height: 36px;
+  width: 36px;
+  padding: 12px 6px;
+  border: 1px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 22px;
+}
+.colorBall {
+  background-color: #961a88;
+  border: 50px;
+  height: 36px;
+  width: 36px;
+  padding: 12px 6px;
+  border: 1px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 22px;
+}
+.winningPot {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+.plaintext {
+  font-size: 13px;
+  font-weight: 500;
+}
+.amount {
+  font-weight: 500;
+  font-size: 12px;
+}
+.prizeAmount {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
+.footerStrip {
+  background-color: #961a88;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nextDraw {
+  display: flex;
+  flex-direction: row;
+  width: 33px;
+  gap: 12px;
+  color: #ffffff;
+}
+
+.play {
+  background-color: #ffffff;
+  width: 80px;
+  border-radius: 4px;
+  height: 24px;
+  padding: 12px 24px;
+  gap: 10px;
+  /* align-items: center; */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100%;
+  color: #961a88;
+}
+.iconPoly {
+  width: 12px;
+  height: 9px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for a smoother effect */
+}
+
+.status:hover {
+  background-color: #f0f0f0; /* Add hover effect if desired */
+}
+
+.iconPoly {
+  margin-right: 8px;
+  transition: transform 0.3s; /* Add transition for a smoother effect */
+}
+.dropdownContent {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  /* position: absolute; */
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.drop {
+  display: flex;
+  flex-direction: row;
+}
+.status.open {
+  background-color: #f0f0f0;
+}
+
+.status.open .iconPoly {
+  transform: rotate(180deg);
+}
