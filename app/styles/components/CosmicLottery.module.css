@@ -91,11 +91,8 @@
   width: 80px;
   border-radius: 4px;
   height: 24px;
-  padding: 12px 24px;
   gap: 10px;
-  /* align-items: center; */
   text-align: center;
-  vertical-align: middle;
   line-height: 100%;
   color: #961a88;
 }
@@ -110,22 +107,21 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background-color 0.3s; /* Add transition for a smoother effect */
+  transition: background-color 0.3s;
 }
 
 .status:hover {
-  background-color: #f0f0f0; /* Add hover effect if desired */
+  background-color: #f0f0f0;
 }
 
 .iconPoly {
   margin-right: 8px;
-  transition: transform 0.3s; /* Add transition for a smoother effect */
+  transition: transform 0.3s;
 }
 .dropdownContent {
   padding: 10px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
-  /* position: absolute; */
   top: 100%;
   left: 0;
   width: 100%;
